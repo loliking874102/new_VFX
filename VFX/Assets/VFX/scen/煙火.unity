@@ -673,17 +673,17 @@ PrefabInstance:
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.r
-      value: 0.92903423
+      value: 1.8588235
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.g
-      value: 0.3176471
+      value: 0.63529414
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[0].m_Value.key0.b
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
@@ -758,12 +758,12 @@ PrefabInstance:
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key0.r
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key1.r
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
@@ -823,12 +823,12 @@ PrefabInstance:
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key0.b
-      value: 0.99944544
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135859, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}
       propertyPath: m_PropertySheet.m_Gradient.m_Array.Array.data[1].m_Value.key1.b
-      value: 0.7671118
+      value: 3.0745099
       objectReference: {fileID: 0}
     - target: {fileID: 678972775696135885, guid: b4e8b136aacb5c841855c43f78fff337,
         type: 3}

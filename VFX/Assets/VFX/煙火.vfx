@@ -30,31 +30,10 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614680}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614703}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614718}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614739}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614714}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614691}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614727}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614693}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614705}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614704}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614752}
@@ -83,37 +62,13 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614555}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614556}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614558}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614569}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614742}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614580}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614602}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614583}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614659}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614585}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614589}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614593}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614595}
@@ -340,7 +295,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":0.5135950446128845,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.00588998245075345},{"alpha":0.800000011920929,"time":0.34412145614624026},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":0.5135950446128845,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.00588998245075345},{"alpha":0.800000011920929,"time":0.34412145614624026},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -431,7 +386,7 @@ VisualEffectResource:
       stripData);\r\n\t\t// TODO Change seed to be sure we're deterministic on random
       with strip\r\n#endif\r\n        \r\n        SetAttribute_E6295C0( /*inout */attributes.velocity, 
       /*inout */attributes.seed, A_a, B_a);\n        {\n            PositionLine_0(
-      /*inout */attributes.position,  /*inout */attributes.seed, float3(10, 0, 0),
+      /*inout */attributes.position,  /*inout */attributes.seed, float3(20, 0, 0),
       float3(1, 0, 0), (float)1);\n        }\n        SetAttribute_F01429A3( /*inout
       */attributes.lifetime,  /*inout */attributes.seed, A_c, B_c);\n        SetAttribute_3278B545(
       /*inout */attributes.size,  /*inout */attributes.seed, A_d, B_d);\n       
@@ -1889,7 +1844,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 30
           m_Value: {x: 1, y: 0, z: 0}
         - m_ExpressionIndex: 31
-          m_Value: {x: 10, y: 0, z: 0}
+          m_Value: {x: 20, y: 0, z: 0}
         - m_ExpressionIndex: 34
           m_Value: {x: 1, y: 1, z: 1}
         - m_ExpressionIndex: 35
@@ -1915,7 +1870,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 2
           m_Value:
             serializedVersion: 2
-            key0: {r: 1, g: 0, b: 0, a: 0}
+            key0: {r: 2, g: 0, b: 0, a: 0}
             key1: {r: 1, g: 0.51359504, b: 0, a: 1}
             key2: {r: 0, g: 0, b: 0, a: 0.8}
             key3: {r: 0, g: 0, b: 0, a: 0}
@@ -5769,7 +5724,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Line, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"start":{"x":10.0,"y":0.0,"z":0.0},"end":{"x":1.0,"y":0.0,"z":0.0}}'
+      m_SerializableObject: '{"start":{"x":20.0,"y":0.0,"z":0.0},"end":{"x":1.0,"y":0.0,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: line
@@ -6529,7 +6484,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -6606,7 +6561,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -6657,7 +6612,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":0.5135950446128845,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.00588998245075345},{"alpha":0.800000011920929,"time":0.34412145614624026},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.0,"g":0.0,"b":0.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":0.5135950446128845,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.00588998245075345},{"alpha":0.800000011920929,"time":0.34412145614624026},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: o
